@@ -1,0 +1,123 @@
+.wq-sec-form form {
+    padding: 60px 80px 40px;
+}
+.wq-sec-form form .wq-btn{
+    margin-top: 20px;
+}
+.wq-titulo h1{
+    max-width: 420px;
+}
+
+
+.wq-steps{
+    background-color: #fff;
+    padding: 45px 80px 40px;
+    border-bottom: 1px solid #E8E8E8;
+    position: relative;
+    z-index: 5;
+}
+
+.wq-steps > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.wq-steps > ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 25px;
+}
+.wq-steps > ul li h3{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #E3E3E3;
+    margin-top: 15px;
+}
+
+.wq-steps > ul li span{
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E3E3E3;
+}
+
+.wq-steps > ul li.active h3{
+    color: #069308;
+}
+.wq-steps > ul li.active span{
+    background-color: #069308;
+}
+
+
+
+.wq-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.wq-check input {
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.wq-check label{
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5A5A5A;
+    cursor: pointer;
+}
+.wq-sec-form::before {
+    height: 480px;
+}
+
+
+.wq-informacao h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #5A5A5A;
+}
+.wq-informacao p{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #5A5A5A;
+    background: #F0F0F0;
+    border: 0.5px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.wq-flex-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.wq-flex-btn .wq-check{
+    justify-content: flex-start;
+    margin: 0;
+}

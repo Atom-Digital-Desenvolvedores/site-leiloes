@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Home</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/lity.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/lity.min.js"></script>
+	<script src="js/efeitos.js"></script>
+</head>
+	<body>
+		<header>
+			<div class="header-nav">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg navbar-light header-nav">
+						<div class="wq-logos">
+							<a class="navbar-brand" href="index.html">
+								<figure class="logo">
+									<img src="img/logo-leilao.svg" alt="" title="">
+								</figure>
+							</a>
+							<a class="navbar-brand" href="index.html">
+								<figure class="logo">
+									<img src="img/logo-angelico.svg" alt="" title="">
+								</figure>
+							</a>
+						</div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+							<span>
+								<img src="img/menu.svg" alt="" title="">
+							</span>
+						</button>
+						<div class="collapse navbar-collapse" id="menuMobile">
+						  <ul class="navbar-nav">
+							<li class="nav-item">
+							  <a class="menu-link active" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="sobre-nos.html">QUEM SOMOS</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">FALE CONOSCO</a>
+							</li>	
+							<!----Aqui estão todas as variações de botões que exitem no header --- Os que estão comentados vão estar em páginas diferentes do site---->
+							<!--<li class="menu-btn">
+								<a href="#" class="btn-perfil"><span><img src="img/cliente-login.svg" alt="" title=""></span>DOUGLAS JASON</a>
+							</li>
+							<li class="menu-btn">
+								<a href="#" class="btn-sair"><span><img src="img/sair-icon.svg" alt="" title=""></span> Sair</a>
+							</li>-->
+							<li class="menu-btn">
+								<button type="button" class="wq-btn btn-cadastro" data-toggle="modal" data-target="#cadastrese">
+									Cadastre-se
+								</button>
+							</li>
+							
+							<li class="menu-btn">
+								<button type="button" class="wq-btn btn-login" data-toggle="modal" data-target="#login">
+									<span><img src="img/login-icon.svg" alt="" title=""></span> LOGIN
+								</button>
+							</li>
+						  </ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!--<div class="banner-all-pages">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Sobre</li>
+					</ol>
+				</div>
+			</div>-->
+		</header>
+
+		<section class="wq-banner" style="background-image:url(img/banner-bg.jpg);">
+			<div class="container">
+				<div class="wq-banner-conteudo">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus nunc mi integer lacus accumsan purus. In sollicitudin diam rhoncus, faucibus ut ipsum.</p>
+					<!-- <a href="listagem-lote.html" class="wq-btn wq-btn_01">BENS DISPONÍVEIS</a> -->
+				</div>
+				<div class="wq-banner-carousel">
+					<div class="wq-carousel-banner-item">
+						<a href="#">
+							<figure>
+								<img src="img/banner-item.png" alt="" title="">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/banner-item.png" alt="" title="">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/banner-item.png" alt="" title="">
+							</figure>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="wq-listagem_leilao">
+			<div class="container-fluid">
+				<form action="#" class="wq-form-pesquisa">
+					<div class="row">
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<h3>Faça uma busca:</h3>
+						</div>
+						
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<div class="input-comum select-item">
+								<select id="tipo01" name="tipo01" required="" class="custom-select">
+									<option disabled="" selected="">Tipo</option>
+									<option value="01">opçao 1</option>
+									<option value="02">opçao 2</option>
+									<option value="03">opçao 3</option>
+									<option value="04">opçao 4</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<div class="input-comum select-item">
+								<select id="estado01" name="estado01" required="" class="custom-select">
+									<option disabled="" selected="">Estado</option>
+									<option value="01">opçao 1</option>
+									<option value="02">opçao 2</option>
+									<option value="03">opçao 3</option>
+									<option value="04">opçao 4</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<div class="input-comum select-item">
+								<select id="cidade01" name="cidade01" required="" class="custom-select">
+									<option disabled="" selected="">Cidade</option>
+									<option value="01">opçao 1</option>
+									<option value="02">opçao 2</option>
+									<option value="03">opçao 3</option>
+									<option value="04">opçao 4</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<div class="input-comum">
+								<input type="text" placeholder="Por palavra-chave">
+							</div>
+						</div>
+						
+						<div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 col-xm-12 col-12">
+							<a href="cadastro.html" class="wq-btn btn-cadastro"> buscar</a>
+						</div>
+					</div>
+				</form>
+
+				<div class="wq-titulo-btns">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xm-12 col-12">
+							<h2>Leilões Atuais</h2>
+						</div>
+						<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xm-12 col-12">
+							<ul class="wq-tabs-btns">
+								<li><a href="#" class="wq-btn wq-btn-tabs active">Ver Todos</a></li>
+								<li><a href="#" class="wq-btn wq-btn-tabs">JUDICIAIS</a></li>
+								<li><a href="#" class="wq-btn wq-btn-tabs">EXTRAJUDICIAIS</a></li>
+								<li><a href="#" class="wq-btn wq-btn-tabs">VENDA DIRETA</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="wq-listagem-itens">
+					<div class="row">
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+
+								<a href="lote-interno.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>1º Leilão:</strong> 24/04/2021 - 18:23h <span>R$ 973.324,88</span></p>
+										<p><strong>2º Leilão:</strong> 01/05/2021 - 18:23h <span>R$ 1.765.875,90</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="wq-item-listagem">
+								<figure>
+									<img src="img/leilao-item.jpg" alt="" title="">
+									<figcaption>
+										<a href="listagem-lote.html" class="wq-tag">
+											<span>leilão extrajudicial</span>
+										</a>
+										<ul>
+											<li><a href="#"><span><img src="img/location-icon.svg" alt=""></span>GOIÂNIA - GO</a></li>
+											<li><span><img src="img/eye-icon.svg" alt=""></span>1976</li>
+											<li class="active"><button><span><img src="img/icon-heart.svg" alt=""></span></button></li>
+										</ul>
+									</figcaption>
+								</figure>
+								<a href="listagem-lote.html" class="wq-listagem-item-conteudo">
+									<div class="wq-header-item">
+										<div class="wq-empresa-vendedora">
+											<span><img src="img/itau-logo.svg" alt=""></span>
+											<h3>Banco Itaú</h3>
+										</div>
+										<h2>Imóvel residencial na BR-153 em Goiânia-GO</h2>
+									</div>
+									<div class="wq-desc-item">
+										<h4>ABERTO PARA LANCES</h4>
+										<p><strong>Leilão:</strong> 24/04/2021 - 18:23h</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="pagination-sec">
+					<div class="container centralizar">
+						<ul class="pagination">
+							<li class="page-item disabled"><a class="page-link" href="#"><span class="flaticon-prev"></span></a></li>
+							<li class="page-item active"><a class="page-link" href="#">01</a></li>
+							<li class="page-item"><a class="page-link" href="#">02</a></li>
+							<li class="page-item"><a class="page-link" href="#">03</a></li>
+							<li class="page-item"><a class="page-link" href="#">04</a></li>
+							<li class="page-item"><a class="page-link" href="#"><span class="flaticon-next"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="wq-cta">
+			<div class="container">
+				<div class="wq-cta-item"  style="background-image:url(img/bg-cta.jpg);">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus nunc mi integer 
+					lacus accumsan purus. In sollicitudin diam rhoncus, faucibus ut ipsum.</p>
+					<button type="button" class="wq-btn wq-btn_01" data-toggle="modal" data-target="#cadastrese">
+						Cadastre - se
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<div class="modal fade" id="cadastrese" tabindex="-1" aria-labelledby="cadastreseLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="wq-modal-container">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="wq-titulo-modal">
+							<h2>Cadastre-se para fazer lances</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus nunc mi integer lacus accumsan purus. In sollicitudin diam rhoncus, faucibus ut ipsum.</p>
+						</div>
+						<div class="wq-modal-btns">
+							<a href="cadastro-pj-step01.html" class="wq-btn btn-modal"><span><img src="img/pessoa-fisica-icon.svg" alt=""></span> Pessoa Física</a>
+							<a href="cadastro-pj-step01.html" class="wq-btn btn-modal"><span><img src="img/pessoa-juridica-icon.svg" alt=""></span> Pessoa Juridica</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="wq-modal-container">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="wq-titulo-modal">
+							<h2>Acesse sua conta</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus nunc mi integer lacus accumsan purus.</p>
+						</div>
+						<form action="" class="wq-modal-form">
+							<div class="input-comum">
+								<input type="email" placeholder="Seu email">
+							</div>
+							<div class="input-comum">
+								<input type="text" placeholder="Sua senha">
+							</div>
+							<button class="wq-btn btn-cadastro">Entrar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="wq-footer">
+			<div class="wq-footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="content">
+								<h3>Institucional</h3>
+	
+								<ul class="wq-menu-footer">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="sobre-nos.html">Quem Somos</a></li>
+									<li><a href="contato.html">Fale Conosco</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="content">
+								<h3>redes sociais</h3>
+								<ul class="wq-midias-sociais">
+									<li><a href="#" target="_blank"><span class="flaticon-facebook-1"></span></a></li>
+									<li><a href="#" target="_blank"><span class="flaticon-instagram-1"></span></a></li>
+									<li><a href="#" target="_blank"><span class="flaticon-youtube-1"></span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="content">
+								<h3>Atendimento</h3>
+								<a href="#" target="_blank" style="display: block;">contato@alglecio.com.br</a>
+								<h4><a href="#" target="_blank"><span class="flaticon-phone-call-2"></span><small>62</small> 4107-0711</a></h4>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xm-12 col-12">
+							<div class="content">
+								<h3>ENDEREÇO</h3>
+								<p>Av. Rezende, Quadra 12 - Lote 1, CHACARA, Goiânia - GO.
+								CEP 74.461-005</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<p>Copyright ® 2021 - Leilões Goias - Todos os direitos reservados</p>
+				</div>
+			</div>
+		</footer>
+
+		<!--<button class="btn-favotitar">
+			<span class="icones">
+				<img src="img/icon-favoritar-withe.svg" alt="" title="">
+				<img src="img/icon-favoritar-gradiente.svg" alt="" title="">
+			</span>
+			<span class="texto">FAVORITAR</span>
+		</button>-->
+	</body>
+</html>
+	
+
